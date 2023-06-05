@@ -18,17 +18,17 @@
     }
 }
 
+main {
+    animation: fade 1s ease-in;
+}
+
 .main {
     animation: fade 1s ease-in;
 }
 
-.browser-title img, .hero-card, .products {
-    animation: slide-right 1s ease;
-}
-
 .navbar-links li a {
     position: relative;
-    padding: 0;
+    padding-bottom: 2px;
 }
 
 .navbar-links li a::after {

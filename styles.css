@@ -44,6 +44,10 @@ body {
     transition: all 0.2s ease;
 }
 
+main {
+    max-width: 1200px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -96,6 +100,25 @@ body {
     align-items: center;
     gap: 20px;
     font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.log-btn {
+    transition: all 0.2s ease;
+}
+
+.log-btn:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+}
+
+.sign-btn {
+    transition: all 0.2s ease;
+}
+
+.sign-btn:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1);
 }
 
 .header-log a {
@@ -285,7 +308,6 @@ body {
     width: 100%;
     max-width: 1200px;
     justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -297,7 +319,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 400px;
+    width: 1200px;
 }
 
 .hero-info h2 {
@@ -319,9 +341,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    width: 100vw;
     flex-wrap: wrap;
 }
+
+
 
 .hero-benefit {
     display: flex;
@@ -335,6 +358,12 @@ body {
     border-radius: 15px;
     padding: 10px;
     box-shadow: 10px 5px 5px rgba(0.0, 0.0, 0.0,0.1);
+    transition: all 0.1s ease;
+}
+
+.hero-benefit:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
 }
 
 .hero-benefit h3 {
@@ -378,6 +407,7 @@ body {
     font-size: 16px;
     font-weight: 350;
     gap: 15px;
+    width: 600px;
 }
 
 .products-container-cards {
