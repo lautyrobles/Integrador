@@ -151,22 +151,21 @@ main {
     padding: 20px 50px;
     border-left: 1px solid gray;
     background-color: white;
-    display: flex;
     flex-direction: column;
     gap: 20px;
     overflow-y: scroll;
     height: calc(100vh - 50px);
-    /* display: none; */
+    display: none;
     /* transform: translateX(100%); */
-    transition: all 0.5s ease-in;
-    opacity: 0;
+    /* transition: all 0.5s ease-in;
+    opacity: 0; */
 }
 
 #toggle-cart:checked + .cart {
-    /* display: flex; */
+    display: flex;
     /* transform: translate(0); */
-    transition: all 0.5s ease;
-    opacity: 1;
+    /* transition: all 0.5s ease;
+    opacity: 1; */
 }
 
 .cart h3 {

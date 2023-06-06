@@ -9,10 +9,10 @@
         background-color: white;
         height: calc(100vh - 50px);
         border-right: 1px solid gray;
-        /* display: none; */
+        display: none;
         /* transform: translateX(-100%); */
-        transition: all 0.5s ease-in;
-        opacity: 0;
+        /* transition: all 0.5s ease-in;
+        opacity: 0; */
     }
 
     .navbar ul a {
@@ -51,10 +51,10 @@
     }
 
     #toggle-menu:checked + .navbar ul {
-        /* display: flex; */
+        display: flex;
         /* transform: translate(0); */
-        transition: all 0.5s ease;
-        opacity: 1;
+        /* transition: all 0.5s ease;
+        opacity: 1; */
     }
 
     #footer hr {
@@ -149,17 +149,17 @@
         position: absolute;
         top: 71px;
         left: 40px;
-        /* display: none; */
+        display: none;
         /* transform: translateX(-200%); */
-        transition: all 0.5s ease-in;
-        opacity: 0;
+        /* transition: all 0.5s ease-in;
+        opacity: 0; */
     }
 
     #toggle-menu:checked ~ .header-log {
         display: flex;
         /* transform: translate(0); */
-        transition: all 0.5s ease;
-        opacity: 1;
+        /* transition: all 0.5s ease;
+        opacity: 1; */
     }
 
     .navbar ul a {
