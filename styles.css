@@ -268,12 +268,14 @@ main {
     border: 3px solid white;
     border-radius: 15px;
     box-shadow: 10px 6px 5px rgba(0.0, 0.0, 0.0,0.1);;
+    max-width: 500px;
 }
 
 .browser-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
 }
 
 .browser-btn {
