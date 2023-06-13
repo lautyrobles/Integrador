@@ -175,9 +175,11 @@ main {
     background-color: white;
     border-radius: 10px;
     font-size: 16px;
-    color: #0093E9;
+    color: #00308F;
     padding: 3px 0px;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px rgba( 0.0, 0.0, 0.0, 0.1);
+    font-weight: 200;
 }
 
 .cart-item {
@@ -234,6 +236,16 @@ main {
     align-items: center;
     font-weight: 600;
     color: #0093E9;
+}
+
+.cart .btn button {
+    width: 150px;
+    margin: 10px;
+    height: 40px;
+}
+
+.cart .btn a {
+    font-size: 16px;
 }
 
 /* BUSCADOR */
@@ -479,13 +491,12 @@ main {
 }
 
 .btn a {
-    color: white;
+    color: #00308F;
     transition: all 0.2s ease;
 }
 
 .btn a:hover {
     color: #0093E9;
-    font-weight: 600;
     transition: all 0.2s ease;
 }
 
@@ -494,15 +505,14 @@ main {
     outline: none;
     border: 1px solid lightgray;
     border-radius: 20px;
-    background-color:#0093E9;
+    background-color: white;
     cursor: pointer;
-    transition: all 0.2s 0.2s ease;
+    transition: all 0.2s ease;
+    box-shadow: 3px 3px 3px rgba(0.0, 0.0, 0.0,0.1)
 }
 
 .btn button:hover {
-    color: #0093E9;
-    background-color: white;
-    border-radius: 1px solid #0093e9;
+    transform: scale(1.1);
     transition: all 0.2s ease;
 }
 
@@ -512,9 +522,14 @@ main {
     border-radius: 15px;
     background-color: white;
     padding: 6px 13px;
-    border: 1px solid white;
+    border: 1px solid lightgray;
     box-shadow: 10px 5px 5px rgba(0.0, 0.0, 0.0,0.1);
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
+}
+
+.btn-allproducts button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
 }
 
 .btn-allproducts a {
