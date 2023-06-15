@@ -18,6 +18,17 @@ body {
     background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0093E9;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
 /* HEADER */
 
 #toggle-menu {
@@ -159,6 +170,17 @@ main {
     /* transform: translateX(100%); */
     /* transition: all 0.5s ease-in;
     opacity: 0; */
+}
+
+.cart::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+.cart::-webkit-scrollbar-thumb {
+    background: #00308F;
+    border-radius: 25px;
+    border: 2px solid white;
 }
 
 #toggle-cart:checked + .cart {
